@@ -6,11 +6,18 @@ var apiai = require('apiai');
 
 var app = apiai("a1472ed63dc740f0ad52b368e1e6473c");
 
+// var T = new Twit({
+//   consumer_key:         'yP66U3HqLK5BjcBSYrT1fjZ3o',
+//   consumer_secret:      'CARE5MEDc0TvyeOcCvCKTQ9Ooz8F1uId1xKkLcUSQVS6kV0JdF',
+//   access_token:         '816768815556161537-tVWZKthR2eyrziUNf9jhJd3o9gDVJtN',
+//   access_token_secret:  'ziZJWaIRv5sv9H69tCcEweCt5DFWSKYXPrgSkVSHkycSr',
+// })
+
 var T = new Twit({
-  consumer_key:         'yP66U3HqLK5BjcBSYrT1fjZ3o',
-  consumer_secret:      'CARE5MEDc0TvyeOcCvCKTQ9Ooz8F1uId1xKkLcUSQVS6kV0JdF',
-  access_token:         '816768815556161537-tVWZKthR2eyrziUNf9jhJd3o9gDVJtN',
-  access_token_secret:  'ziZJWaIRv5sv9H69tCcEweCt5DFWSKYXPrgSkVSHkycSr',
+  consumer_key:         'WOs3K4QjIG9PYwHkhYu9upvST',
+  consumer_secret:      't3UU24Bk8ZciBo6qzH7LAsfOwwBgGWl6FAgLJLlKbTFLaZgp63',
+  access_token:         '816768815556161537-N6OK5IFegRkwzEFLZ807rpsuVzchP7e',
+  access_token_secret:  'aYBaMT0cqHzNa8V6As3X5dZSZL1T5BgPgNo1SeOz5plB1',
 })
 
 
@@ -114,7 +121,7 @@ function tweetIt(message) {
 
 function tweeted (err, data, response) {
   if (err) {
-    console.log('error');
+    console.log(err);
   }
   else {
     console.log('here.');
