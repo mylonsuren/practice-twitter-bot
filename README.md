@@ -1,2 +1,2 @@
-# practice-twitter-bot
+# twittertranslator
 A simple twitter bot.

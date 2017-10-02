@@ -1,0 +1,21 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "my first twitterbot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello",
+    "world"
+  ],
+  "author": "Mylon",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^3.0.3",
+    "google-translate-api": "^2.2.2",
+    "twit": "^2.2.5"
+  }
+}
